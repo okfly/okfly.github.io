@@ -1,0 +1,130 @@
+/*header*/
+.site-header{
+	width: 100%;
+	height: 120px;
+	background: #f0f0f0;
+}
+.site-header .w980{
+	position: relative;
+	height: 120px;
+}
+.site-logo{
+	display: block;
+	margin-top: 23px;
+	float: left;
+
+}
+.search-bar{
+	position: relative;
+	margin-top: 60px;
+	float: right;
+	height: 30px;
+	width: 212px;
+	background: url(../img/search-bar-bg.png) 0 0 no-repeat;
+}
+.search-box{
+	height: 26px;
+	width: 160px;
+	border: none;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 0 12px;
+	background: none;
+}
+.search-btn{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	display: block;
+	width: 23px;
+	height: 23px;
+	border: 1px solid #a7a7a7;
+	cursor: pointer;
+	background: url(../img/search-btn-bg.png) center center no-repeat;
+}
+
+/*site-navbar*/
+.site-navbar{
+	width: 100%;
+	height: 76px;
+	background: url(../img/nav-bar-bg.png) 0 0 repeat-x;
+}
+.site-navbar .w980{
+	position: relative;
+}
+.site-nav{
+	height: 76px;
+}
+.site-nav li{
+	position: relative;
+	margin-right: 78px;
+	width: 84px;
+	height: 76px;
+	float: left;
+}
+.site-nav li a{
+	position: relative;
+	display: block;
+	margin-top: 15px;
+	width: 84px;
+	height: 76px;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 26px;
+	color: #2c2c2c;
+}
+.site-nav li span{
+	width: 100%;
+}
+.site-nav .us-en{
+	color: #787777;
+}
+.site-nav li span{
+	display: block;
+}
+.site-nav .sub-nav{
+	display: none;
+	width: 340px;
+	position: absolute;
+	left: 0;
+	top: 76px;
+}
+.site-nav .sub-nav li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 84px;
+	height: 37px;
+	background: #f02073;
+}
+
+.site-nav .sub-nav li a{
+	margin: 0;
+	padding: 0;
+	width: 84px;
+	height: 37px;
+	line-height: 37px;
+
+}
+.site-nav .sub-nav li a:hover, .site-nav .sub-nav .focus{
+	background: #75002f;
+}
+.site-nav > li:hover, .active{
+	margin-top: -5px;
+	padding-top: 16px;
+	height: 60px;
+	border-top: 5px solid #75002f;
+	background: #f02073 url(../img/a-hover-arrow.png) 38px 0 no-repeat;
+}
+.site-nav li:hover a, .site-nav .active a{
+	margin: 0;
+	padding: 0;
+}
+.site-nav li:hover a,.site-nav li:hover .us-en,.site-nav .active a,.site-nav .active .us-en{
+	color: #fff;
+}
+
+.site-nav li:hover .sub-nav, .active .sub-nav{
+	display: block;
+}
+
