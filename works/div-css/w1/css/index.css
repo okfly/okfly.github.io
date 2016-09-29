@@ -8,9 +8,12 @@
 	width: 960px;
 	height: 334px;
 	overflow: hidden;
+/*	z-index: 3;*/
 }
 .slide{
+	position: absolute;
 	width: 400%;
+	/*z-index: 2;*/
 }
 .slide li{
 	height: 100%;
@@ -321,6 +324,7 @@
 }
 .footer p{
 	font: 1em/22px "宋体";
+	text-align: center;
 }
 .footer .footer-nav {
 	
